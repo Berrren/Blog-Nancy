@@ -1,0 +1,95 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.encabezado {
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.titulo {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.menu {
+    margin-top: 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #f4f4f4;
+}
+
+/* Contenido principal */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.entrada-blog h2 {
+   color: red;
+    margin-top: 20px;
+}
+
+.entrada-blog p {
+    line-height: 1.8;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.entrada-blog h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Cita en bloque */
+blockquote {
+    font-style: italic;
+    background-color: #f1f1f1;
+    border-left: 5px solid #e63946;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}

@@ -1,0 +1,144 @@
+/* Estilo general */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Asegura que el body ocupe al menos toda la altura de la ventana */
+}
+
+/* Encabezado */
+.encabezado {
+    background-color: #1a252f;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+.menu {
+    margin-top: 15px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.3rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu a:hover {
+    color: #f39c12;
+}
+
+/* Sección principal */
+#principal {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+/* Películas */
+.peliculas h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+    color: #2c3e50;
+    text-transform: uppercase;
+}
+
+/* Grid para películas */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+/* Estilo individual de cada película */
+.pelicula {
+    background-color: #f7f9fc;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pelicula:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.pelicula h3 {
+    font-size: 1.6rem;
+    color: #34495e;
+    margin: 20px 0 10px;
+}
+
+.pelicula p {
+    padding: 0 20px 20px;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #7f8c8d;
+}
+
+.pelicula-icon {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: #ecf0f1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: #34495e;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.inception::before {
+    content: "IN";
+}
+
+.interstellar::before {
+    content: "IT";
+}
+
+.matrix::before {
+    content: "MX";
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #1a252f;
+    color: white;
+    margin-top: auto;
+    
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    color: #bdc3c7;
+}
